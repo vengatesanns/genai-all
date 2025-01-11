@@ -1,0 +1,10 @@
+langchain
+pandas
+langchain-core
+langchain-community
+langchain_ollama
+jupyterlab
+notebook
+sentence-transformers
+redis
+numpy
