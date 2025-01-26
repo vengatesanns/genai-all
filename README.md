@@ -8,6 +8,10 @@ Steps to install your project:
 ```sh
 # create venv
 conda create -p genaivenv python=3.11
+conda create -n genaivenv python=3.12
+
+# Powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 # activate the env
 conda activate D:\\Projects\\genai-poc\\genaivenv
@@ -36,5 +40,13 @@ docker run -d --name redis -d redis redis-server --save 60 1 --loglevel warning 
 
 docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
 
+
+```
+
+## NLTK
+```sh
+
+import nltk
+nltk.download('punkt_tab')
 
 ```

@@ -8,3 +8,6 @@ notebook
 sentence-transformers
 redis
 numpy
+langchain-redis
+langchain-huggingface
+scikit-learn
