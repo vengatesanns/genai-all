@@ -73,3 +73,12 @@ import nltk
 nltk.download('punkt_tab')
 
 ```
+
+
+## LangChain
+
+1. Ollama
+    https://python.langchain.com/api_reference/ollama/llms/langchain_ollama.llms.OllamaLLM.html
+    https://python.langchain.com/api_reference/ollama/chat_models/langchain_ollama.chat_models.ChatOllama.html#langchain_ollama.chat_models.ChatOllama
+
+2. Open AI
